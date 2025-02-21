@@ -1,0 +1,19 @@
+# builds
+
+/bin/*
+!/bin/.gitkeep
+dist
+
+# environment
+.envrc
+
+# ide
+
+.idea
+.vscode
+*.code-workspace
+
+# temporary files
+
+.temp
+test*.yaml
