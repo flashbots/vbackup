@@ -14,5 +14,5 @@ snapshot:
 
 .PHONY: help
 help:
-	@go run github.com/flashbots/vbackup/cmd export --help
-	@go run github.com/flashbots/vbackup/cmd import --help
+	@go run github.com/flashbots/vbackup/cmd/vbackup export --help
+	@go run github.com/flashbots/vbackup/cmd/vbackup import --help
