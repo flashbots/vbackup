@@ -2,7 +2,7 @@ env:
   - CGO_ENABLED=0
 
 builds:
-  - main: ./cmd
+  - main: ./cmd/vbackup
     ldflags:
       - -s
       - -w
